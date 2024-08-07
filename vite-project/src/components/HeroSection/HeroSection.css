@@ -1,0 +1,96 @@
+/* src/components/HeroSection/HeroSection.css */
+
+/* Estilo da seção Hero */
+.hero-section {
+  position: relative;
+  height: 100vh; /* Altura da seção ocupando toda a altura da tela */
+  overflow: hidden;
+}
+
+/* Estilo do container da imagem de fundo */
+.hero-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilo da imagem de fundo */
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7); /* Reduz o brilho para melhorar a legibilidade do texto */
+}
+
+/* Sobreposição para o texto ficar legível */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Preto com 50% de opacidade */
+}
+
+/* Estilo do conteúdo da seção Hero */
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  padding: 1rem;
+  z-index: 10;
+}
+
+/* Título principal */
+.hero-content h3 {
+  font-size: 2.5rem; /* Tamanho da fonte para o título */
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #ffffff; /* Cor do título */
+}
+
+/* Texto da citação */
+.quote-text {
+  font-size: 1.5rem; /* Tamanho da fonte para o texto da citação */
+  line-height: 1.6;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Texto de descrição */
+.description {
+  font-size: 1rem; /* Tamanho da fonte para o texto de descrição */
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Link de chamada para ação */
+.cta-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #a5b4fc; /* Cor do texto do link */
+  font-weight: medium;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+}
+
+.cta-link:hover {
+  color: #818cf8; /* Cor do texto do link ao passar o mouse */
+  transform: translateX(4px); /* Pequeno deslocamento para o efeito de hover */
+}
+
+.cta-icon {
+  margin-left: 0.5rem; /* Espaçamento entre o texto e o ícone */
+  width: 1.25rem; /* Tamanho do ícone */
+  height: 1.25rem;
+}

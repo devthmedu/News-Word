@@ -1,0 +1,39 @@
+/* ContentCard.css */
+
+.content-card {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 1rem; /* Rounded corners */
+  overflow: hidden;
+  background-color: #1e293b; /* Slate-900 */
+  margin: 1rem; /* Margem para espaçamento */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-card:hover {
+  transform: translateY(-5px); /* Levantar o cartão ao passar o mouse */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+.content-card-img {
+  width: 100%;
+  height: auto;
+}
+
+.content-card-title {
+  padding: 0.75rem 1.25rem; /* Padding top/bottom e left/right */
+  font-size: 1.125rem; /* Text-lg */
+  font-weight: 700; /* Font-bold */
+  color: #ffffff; /* Text-white */
+  margin: 0;
+}
+
+.content-card-description {
+  border-top: 1px solid #d1d5db; /* Border-gray-400 */
+  padding: 0.625rem 1.25rem; /* Padding top/bottom e left/right */
+  font-size: 0.875rem; /* Text-sm */
+  font-weight: 400; /* Font-normal */
+  color: #9ca3af; /* Text-gray-400 */
+  margin: 0;
+}

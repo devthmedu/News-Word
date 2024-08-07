@@ -1,0 +1,44 @@
+/* NotFound.css */
+
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa; /* Background color for the whole page */
+}
+
+.alert-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000; /* Border color */
+  border-radius: 1rem; /* Rounded corners */
+  background-color: #e9ecef; /* Background color for the alert box */
+  padding: 1rem;
+  max-width: 500px;
+  width: 100%;
+}
+
+.alert-icon {
+  width: 24px;
+  height: 24px;
+  color: #000; /* Color of the icon */
+}
+
+.alert-text {
+  flex: 1;
+  margin-left: 1rem;
+  color: #000; /* Text color */
+}
+
+.alert-close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #000; /* Color of the close icon */
+}
+
+.close-icon {
+  width: 16px;
+  height: 16px;
+}

@@ -1,0 +1,43 @@
+/* News.css */
+
+.news-container {
+  margin: 2rem auto;
+}
+
+.headline {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.news-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem; /* Espaçamento entre os cartões */
+}
+
+.news-card {
+  flex: 1 1 calc(25% - 1.5rem); /* Ajuste para 4 cartões por linha */
+  max-width: calc(25% - 1.5rem); /* Garantir que os cartões não ultrapassem o contêiner */
+}
+
+@media (max-width: 1200px) {
+  .news-card {
+    flex: 1 1 calc(33.333% - 1.5rem); /* Ajuste para 3 cartões por linha */
+    max-width: calc(33.333% - 1.5rem);
+  }
+}
+
+@media (max-width: 992px) {
+  .news-card {
+    flex: 1 1 calc(50% - 1.5rem); /* Ajuste para 2 cartões por linha */
+    max-width: calc(50% - 1.5rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .news-card {
+    flex: 1 1 100%; /* Ajuste para 1 cartão por linha */
+    max-width: 100%;
+  }
+}

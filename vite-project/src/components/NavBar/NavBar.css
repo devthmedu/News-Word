@@ -1,0 +1,133 @@
+/* src/components/NavBar/NavBar.css */
+
+/* Estilo geral da Navbar */
+.navbar-custom {
+  position: fixed; /* Fixar a Navbar no topo */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ocupa toda a largura da página */
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #282c34; /* Fundo da Navbar */
+  z-index: 1000; /* Garantir que a Navbar fique acima de outros conteúdos */
+}
+
+/* Estilo para o logo */
+.navbar-logo {
+  height: 40px;
+  margin-right: 0.75rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Estilo para o título da Navbar */
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f8f9fa;
+}
+
+.navbar-title span {
+  color: #00aaff;
+}
+
+/* Estilo para os links de navegação */
+.navbar-nav-custom {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.navbar-nav-custom .nav-link {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  color: #f8f9fa;
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none; /* Remover sublinhado dos links */
+}
+
+.navbar-nav-custom .nav-link:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Ícones dos Links */
+.nav-icon {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Estilo para o Formulário de Pesquisa */
+.form-custom {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search-input {
+  border-radius: 1.25rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #444;
+  background-color: #222;
+  color: #f8f9fa;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.search-input::placeholder {
+  color: #6c757d;
+}
+
+.search-input:focus {
+  border-color: #00aaff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 170, 255, 0.25);
+}
+
+/* Estilo para o Botão de Pesquisa */
+.btn-search {
+  border-radius: 1.25rem;
+  padding: 0.5rem 1rem;
+  background-color: #00aaff;
+  color: #ffffff;
+  border: 1px solid transparent;
+  transition: background-color 0.3s, border-color 0.3s;
+  cursor: pointer; /* Adiciona cursor pointer para o botão */
+}
+
+.btn-search:hover {
+  background-color: #007bb5;
+  border-color: #007bb5;
+}
+
+.btn-icon {
+  font-size: 1.2rem;
+}
+
+/* Estilos para navegação responsiva */
+@media (max-width: 768px) {
+  .navbar-custom {
+    padding: 0.5rem;
+  }
+
+  .navbar-title {
+    font-size: 1.25rem;
+  }
+
+  .navbar-nav-custom {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .navbar-nav-custom .nav-link {
+    font-size: 0.875rem;
+    padding: 0.5rem;
+  }
+}
+
+/* Adiciona espaçamento superior ao conteúdo principal para não ficar escondido atrás da Navbar fixa */
+body {
+  padding-top: 60px; /* Ajuste conforme necessário para corresponder à altura da Navbar */
+}

@@ -1,0 +1,29 @@
+/* Layout.css */
+/* Layout.css */
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+
+.content {
+  padding: 20px;
+}
+
+/* Estilos para diferentes tamanhos de tela */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 10px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,44 @@
+/* NewsSelector.css */
+
+.news-selector {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.news-selector-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.news-selector-btn {
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.news-selector-btn:hover,
+.news-selector-btn:focus {
+  background-color: #0056b3;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.news-selector-btn:active {
+  background-color: #00408d;
+}
+
+@media (min-width: 576px) {
+  .news-selector-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .news-selector-btn {
+    flex: 1 1 auto;
+    max-width: 200px;
+  }
+}
