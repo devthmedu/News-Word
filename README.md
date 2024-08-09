@@ -1,83 +1,80 @@
-
 # 🌍 WORLD News
 
-Bem-vindo ao **WORLD News**! Este projeto é um aplicativo de notícias moderno e responsivo que utiliza a API de notícias para fornecer os artigos mais recentes e relevantes. Com uma interface limpa e recursos úteis, o WORLD News mantém você atualizado com as últimas notícias.
+Welcome to **WORLD News**! This project is a modern and responsive news app that uses the News API to deliver the latest and most relevant articles. With a clean interface and useful features, WORLD News keeps you up to date with the latest news.
 
-## 📦 Funcionalidades
+## 📦 Features
 
-### 📰 **Notícias de Fontes Diversas**
-- **Wall Street Journal**: Acesso a artigos recentes do Wall Street Journal.
-- **TechCrunch**: Principais manchetes e artigos sobre tecnologia do TechCrunch.
-- **Negócios**: Últimas notícias e tendências de negócios nos EUA.
-- **Tesla**: Notícias sobre a Tesla, incluindo atualizações recentes.
-- **Apple**: Artigos e notícias sobre a Apple.
+### 📰 **News from Multiple Sources**
+- **Wall Street Journal**: Access recent articles from the Wall Street Journal.
+- **TechCrunch**: Top headlines and articles about technology from TechCrunch.
+- **Business**: Latest business news and trends in the US.
+- **Tesla**: News about Tesla, including recent updates.
+- **Apple**: Articles and news about Apple.
 
 ### 🖼️ **Hero Section**
-- Exibe uma citação inspiradora do dia e uma imagem aleatória.
-- Destaca uma mensagem de boas-vindas e uma breve descrição sobre a missão do site.
+- Displays an inspirational quote of the day and a random image. - Highlights a welcome message and a brief description about the site's mission.
 
-### 🔍 **Pesquisa**
-- Campo de pesquisa com estilização moderna para procurar notícias diretamente no site.
+### 🔍 **Search**
+- Modernly styled search field to search for news directly on the site.
 
-### 📱 **Responsividade**
-- Design responsivo que se ajusta para uma experiência de usuário otimizada em diferentes dispositivos, incluindo desktops e dispositivos móveis.
+### 📱 **Responsive**
+- Responsive design that adjusts for an optimized user experience across different devices, including desktops and mobile devices.
 
-### 🛠️ **Componentes**
-- **NavBar**: Navegação fixa no topo da página, com links para diferentes categorias de notícias.
-- **News**: Componente que exibe as notícias com base na fonte fornecida via URL da API.
+### 🛠️ **Components**
+- **NavBar**: Fixed navigation at the top of the page, with links to different news categories.
+- **News**: Component that displays news based on the source provided via API URL.
 
-## 🚀 Como Começar
+## 🚀 How to Get Started
 
-### 📝 **Pré-requisitos**
-Certifique-se de ter [Node.js](https://nodejs.org/) e [npm](https://www.npmjs.com/) instalados em sua máquina.
+### 📝 **Prerequisites**
+Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
 
-### 🔧 **Instalação**
+### 🔧 **Installation**
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/world-news.git
-   ```
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/world-news.git
+```
 
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd world-news
-   ```
+2. Navigate to the project directory:
+```bash
+cd world-news
+```
 
-3. Instale as dependências:
-   ```bash
-   npm install
-   ```
+3. Install the dependencies:
+```bash
+npm install
+```
 
-4. Inicie o servidor de desenvolvimento:
-   ```bash
-   npm start
-   ```
+4. Start the development server:
+```bash
+npm start
+```
 
-   O aplicativo estará disponível em [http://localhost:3000](http://localhost:3000).
+The application will be available at [http://localhost:3000](http://localhost:3000).
 
-## 📚 **Estrutura do Projeto**
+## 📚 **Project Structure**
 
-- `src/components/`: Contém todos os componentes React, incluindo a Navbar, HeroSection e News.
-- `src/App.js`: Configuração das rotas e estrutura principal do aplicativo.
-- `src/App.css`: Estilos globais do aplicativo.
-- `src/components/NavBar/NavBar.css`: Estilos específicos para a Navbar.
-- `src/components/HeroSection/HeroSection.css`: Estilos específicos para a HeroSection.
+- `src/components/`: Contains all React components, including Navbar, HeroSection and News.
+- `src/App.js`: Route configuration and main structure of the application.
+- `src/App.css`: Global application styles.
+- `src/components/NavBar/NavBar.css`: Styles specific to the Navbar.
+- `src/components/HeroSection/HeroSection.css`: Styles specific to the HeroSection.
 
-## 🌟 **Contribuições**
+## 🌟 **Contributions**
 
-Contribuições são bem-vindas! Se você quiser melhorar o projeto ou adicionar novas funcionalidades, siga os passos abaixo:
+Contributions are welcome! If you want to improve the project or add new features, follow the steps below:
 
-1. Faça um fork do repositório.
-2. Crie uma nova branch (`git checkout -b feature/nova-funcionalidade`).
-3. Faça as suas alterações e commit (`git commit -am 'Adiciona nova funcionalidade'`).
-4. Envie para o repositório remoto (`git push origin feature/nova-funcionalidade`).
-5. Abra uma pull request.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+3. Make your changes and commit (`git commit -am 'Add new feature'`).
+4. Push to the remote repository (`git push origin feature/new-feature`).
+5. Open a pull request.
 
-## 📝 **Licença**
+## 📝 **License**
 
-Este projeto está licenciado sob a [MIT License](LICENSE). Veja o arquivo `LICENSE` para mais detalhes.
+This project is licensed under the [MIT License](LICENSE). See the `LICENSE` file for more details.
 
-## 📧 **Contato**
+## 📧 **Contact**
 
-Para qualquer dúvida ou sugestão, entre em contato através do e-mail: [seu-email@dominio.com](mailto:developer.thomas@outlook.com.br).
-
+For any questions or suggestions, please contact us by email: [your-email@domain.com](mailto:developer.thomas@outlook.com.br).
